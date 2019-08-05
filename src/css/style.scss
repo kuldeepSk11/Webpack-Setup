@@ -1,0 +1,10 @@
+$bg-green:yellow;
+$font-size-14:14px;
+@import "~bootstrap/scss/bootstrap";
+// Required
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+
+body{background: $bg-green;font-size: $font-size-14;}
